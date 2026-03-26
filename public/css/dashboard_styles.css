@@ -1,0 +1,51 @@
+/* Style pour les cartes interactives */
+.clickable-card {
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.clickable-card.focused {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.8);
+    border: 3px solid #1C4882;;
+}
+
+/* Style pour la vue en arbre */
+.tree-view ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.tree-view .nested {
+    display: none;
+}
+
+.tree-view .nested.active {
+    display: block;
+}
+
+.tree-view .expand-toggle {
+    cursor: pointer;
+    color: #0c78ec;
+    font-weight: bold;
+    margin-right: 5px;
+}
+    .progress {
+        color: #28a745; /* Couleur verte pour l'avancement */
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .tree-view ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+    .tree-view li {
+        margin: 5px 0;
+    }
+
+    .expand-toggle {
+        cursor: pointer;
+        margin-right: 5px;
+    }

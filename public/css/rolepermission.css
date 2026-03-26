@@ -1,0 +1,28 @@
+/* Style pour aligner les boutons horizontalement */
+.btn-group {
+    display: flex;
+    gap: 10px; /* Espacement de 10px entre les boutons */
+}
+
+/* Réduction de la taille des boutons */
+.btn-group .btn {
+    font-size: 14px; /* Réduit la taille des boutons */
+    padding: 5px 10px; /* Ajuste le padding pour les rendre plus compacts */
+}
+
+/* Amélioration de l'apparence des icônes dans les boutons */
+.btn-group .btn i {
+    margin-right: 5px; /* Espacement entre l'icône et le texte */
+}
+
+/* Style des boutons Modifier et Supprimer */
+.btn-warning, .btn-danger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Réduction de la taille des icônes dans les boutons */
+.fas {
+    font-size: 14px;
+}

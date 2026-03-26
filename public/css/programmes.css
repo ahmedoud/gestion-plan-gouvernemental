@@ -1,0 +1,37 @@
+.table th, .table td {
+    padding: 5px; /* Further reduce padding */
+    font-size: 0.95rem; /* Even smaller font size */
+}
+
+/* Smaller buttons */
+.btn-sm {
+    font-size: 0.75rem;  /* Even smaller button text */
+    padding: 3px 8px; /* Further reduce padding */
+}
+
+/* Smaller icons */
+.fas {
+    font-size: 0.85rem; /* Smaller icons */
+}
+
+/* Adjust modal and form padding */
+.modal-body {
+    padding: 10px; /* Smaller padding in the modal */
+}
+.modal-footer {
+    padding: 8px; /* Smaller footer padding */
+}
+
+/* Description truncation styling */
+.description {
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.show-more {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}

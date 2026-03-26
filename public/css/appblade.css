@@ -1,0 +1,112 @@
+        /* General Body */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-image: url('Background.jpg');
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 276px;
+            background-color: #1C4882;;
+            color: white;
+            z-index: 1000;
+            transition: width 0.2s ease-in-out;
+        }
+
+        .sidebar a {
+            color: #ddd;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 15px 20px;
+            display: block;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .sidebar a:hover {
+            background-color: #334155;
+            color: #ffffff;
+        }
+
+        .sidebar a.active {
+            background-color: #475569;
+            color: #ffffff;
+        }
+
+        .sidebar .sidebar-header {
+            text-align: center;
+            padding: 20px 10px;
+            border-bottom: 1px solid #2e3844;
+        }
+
+        .sidebar .sidebar-header img {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar .list-group {
+            margin-top: 20px;
+        }
+
+        .list-group-item {
+            background: none;
+            border: none;
+            padding: 10px 15px;
+        }
+
+        .list-group-item:hover {
+            background-color: #475569;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            transition: margin-left 0.2s ease-in-out;
+        }
+
+        /* Navbar */
+        .navbar {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar Collapsed */
+        .sidebar.collapsed {
+            width: 80px;
+        }
+
+        .main-content.collapsed {
+            margin-left: 80px;
+        }
+
+        .sidebar.collapsed .list-group-item {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .sidebar.collapsed .sidebar-header {
+            display: none;
+        }
+
+        .sidebar.collapsed .sidebar a span {
+            display: none;
+        }
+
+        .sidebar.collapsed .sidebar i {
+            margin: 0 auto;
+        }
+
+        .table th {
+                background-color: #007bff; /* Couleur d'arrière-plan des en-têtes */
+                color: white;
+                text-align: center;
+                padding: 12px 8px;
+            }

@@ -1,0 +1,56 @@
+/* Réduction de la taille des éléments dans le tableau */
+.table th, .table td {
+    font-size: 0.85rem; /* Taille de police plus petite */
+    padding: 8px; /* Réduire le padding des cellules */
+}
+
+/* Réduction de la taille des icônes dans les boutons */
+.btn i {
+    font-size: 0.75rem; /* Réduit la taille des icônes */
+}
+
+/* Ajout d'un padding à gauche plus grand dans le contenu principal pour compenser la sidebar */
+.main-content {
+    padding-left: 30px; /* Ajustez cette valeur en fonction de la taille de la sidebar */
+}
+
+/* Style des boutons */
+.btn-sm {
+    font-size: 0.75rem; /* Taille des boutons plus petits */
+    padding: 4px 10px;
+}
+
+/* Mise en forme du tableau */
+.table {
+    font-size: 0.85rem; /* Réduction de la taille de la police globale du tableau */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #007bff; /* Couleur d'arrière-plan des en-têtes */
+    color: white;
+    text-align: center;
+    padding: 12px 8px;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px 8px; /* Réduction du padding des cellules */
+}
+
+/* Styliser la ligne de tableau au survol */
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style des badges */
+.badge {
+    font-size: 0.75rem; /* Taille des badges plus petites */
+}
+
+/* Espacement général */
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}

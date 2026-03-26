@@ -1,0 +1,186 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.my-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.table thead th {
+    background-color: #ff0008;
+    color: rgb(255, 255, 255);
+}
+
+.table td a, .table td form {
+    display: inline-block;
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding */
+}
+
+.table td a {
+    margin-right: 10px; /* Add space between buttons */
+}
+
+.table td form {
+    margin-right: 10px; /* Add space between buttons */
+}
+
+.btn {
+    margin: 0; /* Remove margins */
+    padding: 0.375rem 0.75rem; /* Keep padding for better appearance */
+}
+
+.table td form button {
+    margin: 0; /* Remove margins */
+    padding: 0.375rem 0.75rem; /* Keep padding for better appearance */
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+    border: none; /* Remove border from header cells */
+}
+
+.table td {
+    border-top: none; /* Remove top border from table cells to avoid lines */
+}
+
+.table td a, .table td form button {
+    margin-right: 10px; /* Add space between buttons */
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    border-bottom: 2px solid #0056b3;
+}
+
+.card-body {
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+.card-body p {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-body p strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.card h2 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .card-body p {
+        font-size: 0.875rem;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Customizations */
+.container-fluid {
+    padding: 20px;
+    background-color: #f8f9fc;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    background-color: #343a40;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.list-group-item {
+    background-color: #495057;
+    color: white;
+}
+
+.list-group-item:hover {
+    background-color: #6c757d;
+    cursor: pointer;
+}
+
+.content-area {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.spinner-border {
+    color: #4e73df;
+}
+.sidebar {
+    background-color: #ea2626; /* Change la couleur de fond ici */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 250px; /* Ajuste la largeur si besoin */
+    overflow-y: auto; /* Permet le défilement si le contenu est trop long */
+    padding-top: 60px; /* Ajuste l'espace en haut si besoin */
+}
+.content-area {
+    margin-left: 260px; /* Ajuste selon la largeur de la sidebar */
+}
+

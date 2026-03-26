@@ -1,0 +1,35 @@
+/* Réduction de la taille des icônes et des boutons */
+.btn-sm {
+    font-size: 0.75rem;  /* Réduction du texte des boutons */
+    padding: 3px 8px;    /* Réduction du padding des boutons */
+}
+
+.btn i {
+    font-size: 0.75rem; /* Réduction de la taille des icônes */
+}
+.table th {
+    background-color: #007bff; /* Couleur d'arrière-plan des en-têtes */
+    color: white;
+    text-align: center;
+    padding: 12px 8px;
+}
+/* Réduction de la taille des colonnes du tableau */
+.table th, .table td {
+    padding: 5px; /* Réduction du padding des cellules */
+    font-size: 0.85rem; /* Réduction de la taille de la police des cellules */
+}
+
+/* Ajustement des badges */
+.badge {
+    font-size: 0.75rem;
+}
+
+/* Ajustement du tableau pour une meilleure lisibilité */
+.table {
+    font-size: 0.85rem;
+}
+
+/* Style pour les descriptions */
+td {
+    word-wrap: break-word; /* Permet aux longues descriptions de s'afficher correctement */
+}

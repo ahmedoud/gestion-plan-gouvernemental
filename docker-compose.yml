@@ -1,0 +1,48 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gestion_plan_app
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+    networks:
+      - gestion_plan
+
+  webserver:
+    image: nginx:latest
+    container_name: gestion_plan_nginx
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx:/etc/nginx/conf.d
+    depends_on:
+      - app
+    networks:
+      - gestion_plan
+
+  db:
+    image: mariadb:10.6
+    container_name: gestion_plan_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: gestion_plan
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: root
+    ports:
+      - "3307:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - gestion_plan
+
+volumes:
+  dbdata:
+
+networks:
+  gestion_plan:

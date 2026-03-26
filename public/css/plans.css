@@ -1,0 +1,40 @@
+
+   /* Smaller table rows */
+    .table th, .table td {
+        padding: 5px; /* Réduction du padding */
+        font-size: 0.85rem; /* Réduction de la taille de police */
+    }
+
+    /* Smaller buttons */
+    .btn-sm {
+        font-size: 0.75rem;  /* Even smaller button text */
+        padding: 3px 8px; /* Further reduce padding */
+    }
+
+    /* Smaller icons */
+    .fas {
+        font-size: 0.85rem; /* Réduction des icônes */
+    }
+
+    /* Adjust modal and form padding */
+    .modal-body {
+        padding: 10px; /* Réduction du padding dans le modal */
+    }
+    .modal-footer {
+        padding: 8px; /* Réduction du padding du footer du modal */
+    }
+
+    /* Table with reduced width */
+    .table {
+        font-size: 0.85rem;
+    }
+
+    /* Badge style adjustment */
+    .badge {
+        font-size: 0.75rem; /* Taille des badges réduite */
+    }
+
+    /* Reduce width of buttons */
+    .btn i {
+        font-size: 0.85rem; /* Réduction de la taille des icônes dans les boutons */
+    }
