@@ -24,7 +24,7 @@ Application web développée avec Laravel permettant la gestion de :
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/ahmedoud/gestion-plan-gouvernemental.git
+git clone https://github.com/Ahmed-Oudaa/gestion-plan-gouvernemental.git
 cd gestion-plan-gouvernemental
 composer install
 cp .env.example .env
